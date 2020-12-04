@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+body,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.container  {
+  width: calc(50% - 2px);
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+}
+
+.bandera {
+  width: 200px;
+  border: 1px solid gray;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+}
+.color-rojo {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+}
+
+.color-amarillo {
+  background-color: yellow;
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 30%;
+}
+
+.linea-horizontal {
+  background-color: #fff;
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 45%;
+}
+
+.linea-vertical {
+  background-color: #fff;
+  height: 100%;
+  width: 10px;
+  position: absolute;
+  z-index: 10;
+  left: 30%;
+}
+
+.linea-negra {
+  background-color: #000;
+  height: 33%;
+  width: 80%;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+}
+
+.linea-blanca {
+  background-color: #fff;
+  height: 34%;
+  width: 80%;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  bottom: 33%;
+}
+
+.linea-verde {
+  background-color: green;
+  height: 33%;
+  width: 80%;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+}
+
+.color-blanco {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+}
+
+.circulo-rojo {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 38%;
+  top: 25%;
+  border-radius: 50%;
+}

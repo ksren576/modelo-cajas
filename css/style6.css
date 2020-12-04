@@ -1,0 +1,15 @@
+.producto {
+    position: relative;
+    padding: 100px;
+  }
+  .imagen {
+    position: absolute;
+    top: 0;
+  }
+  .ribbon {
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    left:120px;
+  }
+  
